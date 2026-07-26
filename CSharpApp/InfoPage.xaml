@@ -1,0 +1,37 @@
+﻿<Page x:Class="ToursApp.InfoPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Справочная информация" >
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="Справочная информация" FontSize="24"  Foreground="White"
+               HorizontalAlignment="Left" Margin="21,17,0,3" Width="323"/>
+
+        <Border Grid.Row="1" Grid.RowSpan="2" CornerRadius="8"  BorderThickness="2" Margin="0,10,0,10" Padding="10">
+            <StackPanel>
+                <Label Content="О программе" FontSize="21" FontWeight="Bold" />
+                <TextBlock Text="Система учёта обращений граждан отдела образования" 
+                           FontSize="18" TextWrapping="Wrap"/>
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Row="3" Grid.RowSpan="2" CornerRadius="8" BorderThickness="2" Margin="0,10,0,10" Padding="10">
+            <StackPanel>
+                <Label Content="Контакты" FontSize="21" FontWeight="Bold" />
+                <TextBlock Text="Отдел образования Кировского района" FontSize="18"/>
+                <TextBlock Text="Телефон: +7 (347) 279-91-40" FontSize="18" Margin="0,5,0,0"/>
+                <TextBlock Text="Адрес: г. Уфа, ул. Пушкина, 85" FontSize="18" Margin="0,5,0,0"/>
+                <TextBlock Text="График: Понедельник-Пятница с 9:00 до 18:00" FontSize="18" Margin="0,5,0,0"/>
+                <TextBlock Text="Обед с 13:00 до 14:00" FontSize="18" Margin="0,5,0,0"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

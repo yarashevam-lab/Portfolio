@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9db0b6129126438d8c4b5ea2e1d705bf" Name="Diagram1">
+        <EntityTypeShape EntityType="Отдел_ОбразованияModel.sysdiagrams" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Отдел_ОбразованияModel.Жители" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Отдел_ОбразованияModel.Образовательные_учреждения" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Отдел_ОбразованияModel.Обращения" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Отдел_ОбразованияModel.Сотрудники" Width="1.5" PointX="3.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Отдел_ОбразованияModel.Статусы" Width="1.5" PointX="5.5" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="Отдел_ОбразованияModel.FK_Обращения_Жители" ManuallyRouted="false" />
+        <AssociationConnector Association="Отдел_ОбразованияModel.FK_Обращения_Образовательные_учреждения" ManuallyRouted="false" />
+        <AssociationConnector Association="Отдел_ОбразованияModel.FK_Обращения_Сотрудники" ManuallyRouted="false" />
+        <AssociationConnector Association="Отдел_ОбразованияModel.FK_Обращения_Статусы" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
