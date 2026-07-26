@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ФК АЛГА-БАШКОРТОСАН</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)),
+            url(alga.f.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            margin: 0;
+            min-height: 100vh;
+        }
+       .line-top, .line-bottom {
+            position: absolute;
+            width: 100%;
+            height: 110.5px;
+            background: rgba(0, 0, 0, 0.540); 
+        }
+        .line-top {top: 0;}
+        .line-bottom {bottom: 0;}
+        .logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 110px;
+        }
+         .logo-link {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block; 
+            z-index: 2;
+        }
+        .club-header {
+            position: absolute;
+            left: 150px;
+            top: 25px;
+        }
+        .club-header h1 {
+            color: white;
+            font-size: 28px;
+            margin: 0;
+            margin-right: 50px;
+        }
+        .club-header h2 {
+            color: white;
+            font-size: 24px;
+            margin: 5px 0 0 0;
+            font-weight: bold;
+        }
+        .menu {
+            position: absolute;
+            top: 40px;
+            right: 80px;
+        }
+        .nav-link {
+            color: white;
+            font-size: 26px;
+            margin-left: 60px;
+            text-decoration: none; 
+            margin: 0 50px; 
+        }
+        .about-title {
+            position: absolute;
+            font-size: 34px;
+            font-weight: bold;
+            color: whitesmoke;
+            text-align: left;
+            top: 144px;
+            left: 60px;
+        }
+        .about-text {
+            position: absolute;
+            top: 240px; 
+            left: 42px;
+            width: 600px;
+            font-size: 24px;
+            color: #e6e6e6;
+            line-height: 1.6;
+            text-align: justify;
+            background: rgba(0, 0, 0, 0.625);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .gif-banner {
+            position: absolute;
+            bottom: 300px; 
+            right: 50px;
+            width: 450px;
+            border-radius: 15px;
+            overflow: hidden;
+            padding: 15px;
+            z-index: 10;
+        }
+        .gif-banner img {
+            width: 100%;
+            border-radius: 10px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        .audio-m {
+            position: absolute;
+            bottom: 180px;
+            right: 130px;
+            z-index: 10;
+            background: rgba(0, 0, 0, 0.65);
+            padding: 10px;
+            border-radius: 10px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .audio-logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; 
+            margin-bottom: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            object-fit: cover;
+        }
+        
+        .audio-title {
+            font-size: 18px;
+            color: white;
+            margin-bottom: 13px;
+            text-align: center;
+        }
+        
+        audio {
+            width: 100%;
+        }
+        
+        .contacts {
+            position: absolute;
+            bottom: 20px;
+            padding: 0 30px;
+            width: calc(100% - 60px); 
+            display: flex;
+            text-align: left;
+        }
+        .contacts-column {flex: 1;}
+        .contacts-title {
+            font-size: 26px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 5px;
+        }
+        .contacts-link, .contacts-text {
+            font-size: 21px;
+            color: #e6e6e6;
+            text-decoration: none;
+        }
+        .contacts-link:hover {color: white;} 
+    </style>
+</head>
+<body>
+    <div class="line-top"></div>
+    <a href="ALGA.html" class="logo-link">
+        <img src="algal.jpg" alt="ФК АЛГА-БАШКОРТОСТАН" class="logo">
+    </a>
+    <div class="club-header">
+        <h1>О нас</h1>
+        <h2>ФК АЛГА-БАШКОРТОСАН</h2>
+    </div>
+    <div class="gif-banner">
+        <img src="БаннерАлга.gif" alt="Баннер ФК АЛГА-БАШКОРТОСАН">
+    </div>
+    
+    <div class="menu">
+        <a href="ALGA.html" class="nav-link">Главная</a>
+        <a href="ALGA2.html" class="nav-link">Расписание</a>
+        <a href="ALGA3.html" class="nav-link">События</a>
+        <a href="ALGA4.html" class="nav-link">О нас</a>
+    </div>
+    
+    <div class="about-title">Футбольный клуб АЛГА-БАШКОРТОСТАН - больше чем <br>команда, это семья!</div>
+    
+    <div class="about-text">
+        Наш футбольный клуб основан с 2022 года и с этого времени тренирует и активно участвует в турнирах. 
+        Мы тренируем команды разных возрастов, организовываем соревнования и выездные матчи, 
+        способствуя развитию футбола среди молодежи.
+        Присоединяйся к нашей команде и завоевывай кубки вместе с нами!
+    </div>
+    
+    <div class="audio-m">
+        <div class="audio-title">Становись чемпионом вместе с нами!</div>
+        <audio controls>
+            <source src="Алга3.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    
+    <div class="line-bottom"></div>
+    
+    <div class="contacts">
+        <div class="contacts-column vk">
+            <div class="contacts-title">VK</div>
+            <a href="https://vk.com/club213581460" class="contacts-link" target="_blank">
+                https://vk.com/club213581460
+            </a>
+        </div>
+        <div class="contacts-column telegram">
+            <div class="contacts-title">Telegram</div>
+            <a href="https://t.me/FK_Alga" class="contacts-link" target="_blank">
+                https://t.me/FK_Alga
+            </a>
+        </div>
+        <div class="contacts-column coach">
+            <div class="contacts-title">Тренер: Кузнецов Артем Валерьевич</div>
+            <div class="contacts-text">+7 (912) 662-67-16</div>
+        </div>
+    </div>
+</body>
+</html>

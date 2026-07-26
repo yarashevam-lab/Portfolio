@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ФК АЛГА-БАШКОРТОСАН</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-image: url(alga.f.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            margin: 0;
+        }
+        .image {
+            position: absolute;
+            top: 230px;
+            left: 130px;
+            opacity: 0.65;
+            z-index: 0; 
+            width: 600px; 
+            height: auto;
+            border-radius: 30px;
+        }
+         .text-container {
+            position: absolute;
+            top: 230px;
+            left: 130px;
+            width: 600px;
+            height: auto;
+            z-index: 1; 
+        }
+        .image-title {
+            color: white;
+            font-size: 34px;
+            font-weight: bold;
+            padding: 20px;
+            text-align: justify;
+            margin-bottom: -9px;
+            border-radius: 10px;
+        }
+        .image-text {
+            color: white;
+            font-size: 30px;
+            font-weight: normal;
+            padding: 22px;
+            text-align: justify;
+            border-radius: 10px;
+        }
+        .line-top, .line-bottom {
+            position: absolute;
+            width: 100%;
+            height: 110px;
+            background: rgba(0, 0, 0, 0.603); 
+        }
+        .line-top {top: 0;}
+        .line-bottom {bottom: 0;}
+        .logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 110px;
+        }
+        .club-header {
+            position: absolute;
+            left: 150px;
+            top: 25px;
+        }
+        .club-header h1 {
+            color: white;
+            font-size: 25px;
+            margin: 0;
+            margin-right: 50px;
+        }
+        .club-header h2 {
+            color: white;
+            font-size: 28px;
+            margin: 5px 0 0 0;
+            font-weight: bold;
+        }
+        .menu {
+            position: absolute;
+            top: 52px;
+            right: 80px;
+        }
+        .nav-link {
+            color: white;
+            font-size: 26px;
+            margin-left: 60px;
+            text-decoration: none; 
+            margin: 0 50px; 
+            transition: all 0.3s ease; 
+            display: inline-block;
+            padding: 5px 0;
+        }
+        
+        
+        .nav-link:hover {
+            text-decoration: underline; 
+            text-decoration-color: white; 
+            text-decoration-thickness: 3px; 
+            color: white; 
+            transform: scale(1.05); 
+        }
+        
+        .contacts {
+            position: absolute;
+            bottom: 20px;
+            padding: 0 30px;
+            width: calc(100% - 60px); 
+            display: flex;
+            text-align: left;
+        }
+        .contacts-column {flex: 1;}
+        .contacts-title {
+            font-size: 26px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 5px;
+        }
+        .contacts-link, .contacts-text {
+            font-size: 21px;
+            color: #e6e6e6;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .contacts-link:hover {
+            color: white;
+            text-decoration: underline;
+        }
+        
+        .contacts-link:hover {color: white;}
+    </style>
+</head>
+<body>
+    <img src="algab.jpg" alt="ФК АЛГА-БАШКОРТОСАН" class="image">
+     <div class="text-container">
+        <div class="image-title">Добро пожаловать в мир футбола!</div>
+         <div class="image-text">Здесь каждый матч — это битва, а каждый игрок — герой. Мы объединяем страсть к футболу и стремление к победе.
+            <br>Присоединяйтесь к нашей команде, станьте частью легенды и пишите историю вместе с нами!
+        </div>
+    </div>
+    <div class="line-top"></div>
+    <img src="algal.jpg" alt="ФК АЛГА-БАШКОРТОСАН" class="logo">
+    <div class="club-header">
+        <h1>Футбольный клуб</h1>
+        <h2>АЛГА-БАШКОРТОСАН</h2>
+    </div>>
+    <div class="menu">
+        <a href="ALGA.html" class="nav-link">Главная</a>
+        <a href="ALGA2.html" class="nav-link">Расписание</a>
+        <a href="ALGA3.html" class="nav-link">События</a>
+        <a href="ALGA4.html" class="nav-link">О нас</a>
+    </div>
+    <div class="line-bottom"></div>
+    <div class="contacts">
+        <div class="contacts-column vk">
+            <div class="contacts-title">VK</div>
+            <a href="https://vk.com/club213581460" class="contacts-link" target="_blank">
+                https://vk.com/club213581460
+            </a>
+        </div>
+        <div class="contacts-column telegram">
+            <div class="contacts-title">Telegram</div>
+            <a href="https://t.me/FK_Alga" class="contacts-link" target="_blank">
+                https://t.me/FK_Alga
+            </a>
+        </div>
+        <div class="contacts-column coach">
+            <div class="contacts-title">Тренер: Кузнецов Артем Валерьевич</div>
+            <div class="contacts-text">+7 (912) 662-67-16</div>
+        </div>
+    </div>
+</body>
+</html>
